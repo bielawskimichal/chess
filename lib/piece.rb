@@ -49,7 +49,7 @@ class Piece
   end
 
   def possible_moves
-    if white?(self)
+    if white?
       [[1, 0]]
     else
       [[-1, 0]]
